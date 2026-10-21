@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>CarePoint - Patient Records & Pharmacy Inventory</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+        <nav>
+            <h1>CarePoint</h1><p>Records & Inventory</p>
+        <button data-v="patients" class ="on"> Patients</button>
+        <button data-v="rx">Prescriptions</button>
+        <button data-v ="stock">Medication & Batches</button>
+        <button data-v ="log">Dispensing Log</button>
+        <button data-v ="schema">Data model</button>
+        </nav>
+        <main id="main"></main>
+    </div>
+    <dialog id ="dlg"><div id="frm"></div></dialog>
+    <div id="toast" role="status"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
